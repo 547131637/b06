@@ -6,44 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8499c2fb-9301-4f84-aaab-ca57fb0f76f1" name="Default" comment="Demo">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/web/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/web/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/web/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/web/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/web/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/.idea/artifacts/xiaohongshu_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/.idea/libraries/servlet_api.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/.idea/libraries/xiaohongshu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/jdbcDemo/jdbcDemo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/jdbcDemo/src/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/jdbcDemo/src/sixi/com/jdbcDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/jdbcDemo/src/sixi/com/jdbcUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/src/com/sx/bean/deviceBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/src/com/sx/login/TestLogin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/src/com/sx/login/deviceJDBC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/src/com/sx/servlet/DeviceServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/src/com/sx/servlet/ServletDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/src/com/sx/servlet/ServletVerification.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/src/com/sx/servlet/cookieServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/src/com/sx/servlet/loginServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/src/com/sx/servlet/requestServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/src/com/sx/servlet/sessionServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/src/com/sx/utils/MyJdbcUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/src/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/web/1.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/web/WEB-INF/classes/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/web/jdbc.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/web/jsp/cookie.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../xiaohongshu/xiaohongshu.iml" />
+    <list default="true" id="8499c2fb-9301-4f84-aaab-ca57fb0f76f1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../xiaohongshu/jdbcDemo/jdbcDemo.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../xiaohongshu/jdbcDemo/src/db.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../xiaohongshu/jdbcDemo/src/sixi/com/jdbcDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../xiaohongshu/jdbcDemo/src/sixi/com/jdbcUtils.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../xiaohongshu/.idea/modules.xml" afterPath="$PROJECT_DIR$/../xiaohongshu/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../xiaohongshu/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../xiaohongshu/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../xiaohongshu/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/../xiaohongshu/src/com/sx/servlet/sessionServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,8 +64,8 @@
       <file leaf-file-name="deviceBean.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../xiaohongshu/src/com/sx/bean/deviceBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="169">
+              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -158,7 +127,6 @@
         <option value="$PROJECT_DIR$/../xiaohongshu/jdbcDemo/src/sixi/com/jdbcDemo.java" />
         <option value="$PROJECT_DIR$/../xiaohongshu/src/com/sx/utils/MyJdbcUtils.java" />
         <option value="$PROJECT_DIR$/../xiaohongshu/src/com/sx/servlet/ServletVerification.java" />
-        <option value="$PROJECT_DIR$/../xiaohongshu/src/com/sx/bean/deviceBean.java" />
         <option value="$PROJECT_DIR$/../xiaohongshu/web/1.jsp" />
         <option value="$PROJECT_DIR$/../xiaohongshu/web/jdbc.jsp" />
         <option value="$PROJECT_DIR$/../xiaohongshu/src/com/sx/servlet/sessionServlet.java" />
@@ -171,6 +139,7 @@
         <option value="$PROJECT_DIR$/../xiaohongshu/src/com/sx/login/deviceJDBC.java" />
         <option value="$PROJECT_DIR$/../xiaohongshu/web/jsp/cookie.jsp" />
         <option value="$PROJECT_DIR$/../xiaohongshu/src/com/sx/servlet/cookieServlet.java" />
+        <option value="$PROJECT_DIR$/../xiaohongshu/src/com/sx/bean/deviceBean.java" />
       </list>
     </option>
   </component>
@@ -254,122 +223,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaohongshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaohongshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaohongshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaohongshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaohongshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaohongshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaohongshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaohongshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaohongshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaohongshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaohongshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaohongshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -379,7 +232,7 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -995,12 +848,20 @@
       <workItem from="1544407431855" duration="15274000" />
       <workItem from="1544431382149" duration="8036000" />
       <workItem from="1544440677997" duration="26697000" />
-      <workItem from="1544605006998" duration="1391000" />
+      <workItem from="1544605006998" duration="2150000" />
     </task>
+    <task id="LOCAL-00001" summary="Demo">
+      <created>1544606524536</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544606524536</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209697000" />
+    <option name="totallyTimeSpent" value="210456000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1378,7 +1239,7 @@
     <entry file="file://$PROJECT_DIR$/../xiaohongshu/src/com/sx/servlet/sessionServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1393,8 +1254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../xiaohongshu/src/com/sx/bean/deviceBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="169">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding />
         </state>
       </provider>
