@@ -12,20 +12,22 @@ import java.util.ArrayList;
  * Created by Administrator on 2018/12/10.
  */
 public class deviceJDBC {
-    public  static int savaData(String deviceID, String stepCount, String signalIntensity, String uploadTime, String updateTime){
+    public  static int savaData(String deviceID, String stepCount, String signalIntensity, String uploadTime, String updateTime,String Longitude,String Latitude){
         Connection connection =null;
         PreparedStatement preparedStatement = null;
 
         try {
             //String  sql ="insert into devices(DeviceID,StepCount,SignalIntensity,UploadTime,UpdateTime) values('b08','86','9876','2018/09/27/19:43:21','2018/09/27/19:43:21')";
             connection = MyJdbcUtils.getConnection();
-            String sql="insert into devices(DeviceID,StepCount,SignalIntensity,UploadTime,UpdateTime) values(?,?,?,?,?)";
+            String sql="insert into devices(DeviceID,StepCount,SignalIntensity,Longitude,Latitude,UploadTime,UpdateTime) values(?,?,?,?,?,?,?)";
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1,deviceID);
             preparedStatement.setString(2,stepCount);
             preparedStatement.setString(3,signalIntensity);
-            preparedStatement.setString(4,uploadTime);
-            preparedStatement.setString(5,updateTime);
+            preparedStatement.setString(4,Longitude);
+            preparedStatement.setString(5,Latitude);
+            preparedStatement.setString(6,uploadTime);
+            preparedStatement.setString(7,updateTime);
             int i = preparedStatement.executeUpdate();
             if(i>0){
                return 200;
@@ -62,6 +64,8 @@ public class deviceJDBC {
                 deviceBean.setDeviceID(resultSet.getString("DeviceID"));
                 deviceBean.setStepCount(resultSet.getString("StepCount"));
                 deviceBean.setSignalIntensity(resultSet.getString("SignalIntensity"));
+                deviceBean.setLongitude(resultSet.getString("Longitude"));
+                deviceBean.setLatitude(resultSet.getString("Latitude"));
                 deviceBean.setUploadTime(resultSet.getString("UploadTime"));
                 deviceBean.setUpdateTime(resultSet.getString("UpdateTime"));
                 arrayList.add(deviceBean);

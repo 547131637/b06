@@ -27,7 +27,7 @@ import static com.sun.xml.internal.ws.api.message.Packet.Status.Response;
 @WebServlet(name = "DeviceServlet")
 public class DeviceServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html;charset=UTF-8");
+      //  response.setContentType("text/html;charset=UTF-8");
         response.setCharacterEncoding("UTF-8");
 /*
         String address ="/jdbc.jsp";
@@ -42,12 +42,11 @@ public class DeviceServlet extends HttpServlet {
 
 // 使用阿里的fastjson jar包处理json数据(这里是用map进行接收的,你也可以定义vo层容器类接收)
         HashMap map = JSONObject.parseObject(readerStr, HashMap.class);
-/*        System.out.println(map.get("DeviceID"));
-        System.out.println(map.get("StepCount"));
-        System.out.println(map.get("SignalIntensity"));*/
         deviceBean.setDeviceID((String) map.get("DeviceID"));
         deviceBean.setStepCount((String) map.get("StepCount"));
         deviceBean.setSignalIntensity((String) map.get("SignalIntensity"));
+        deviceBean.setLongitude((String) map.get("Longitude"));
+        deviceBean.setLatitude((String) map.get("Latitude"));
         String format = getDate();
         deviceBean.setUploadTime(format);
         deviceBean.setUpdateTime(format);
@@ -67,15 +66,13 @@ public class DeviceServlet extends HttpServlet {
         System.out.println(request.getRemoteHost());        // 获取客户端主机名，这个主机名没有在DNS上注册的话还是获取ip
         System.out.println(request.getRemotePort());        // 获取客户端浏览器的端口
         System.out.println(request.getRequestURL());        // 获取url
-        int i = deviceJDBC.savaData(deviceBean.getDeviceID(), deviceBean.getStepCount(), deviceBean.getSignalIntensity(), deviceBean.getUploadTime(), deviceBean.getUpdateTime());
+        int i = deviceJDBC.savaData(deviceBean.getDeviceID(), deviceBean.getStepCount(), deviceBean.getSignalIntensity(), deviceBean.getUploadTime(), deviceBean.getUpdateTime(),deviceBean.getLongitude(),deviceBean.getLatitude());
         if(i ==200){
             response.setStatus(i);
         }else{
             response.setStatus(i);
         }
-
     }
-
     private String getDate() {
         Date now = new Date( );
         SimpleDateFormat ft = new SimpleDateFormat ("yyyy-MM-dd hh:mm:ss");
@@ -85,6 +82,7 @@ public class DeviceServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
        // doPost(request,response);
         StringBuffer requestURL = request.getRequestURL();
+        System.out.println("luozicheng" + requestURL);
         String[] devices = requestURL.toString().split("http://192.168.8.102:8080/b06/device");
         int  id =0;
         if (devices.length==2){
@@ -101,8 +99,11 @@ public class DeviceServlet extends HttpServlet {
             System.out.println(deviceBean.getDeviceID());
             System.out.println(deviceBean.getStepCount());
             System.out.println(deviceBean.getSignalIntensity());
+            System.out.println(deviceBean.getLongitude());
+            System.out.println(deviceBean.getLatitude());
             System.out.println(deviceBean.getUploadTime());
             System.out.println(deviceBean.getUpdateTime());
+
             System.out.println(resjson);
         }
         response.getWriter().println(resjson);// 以流的形式写回客户端,被客户端ajax接收解析;

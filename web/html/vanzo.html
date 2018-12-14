@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://localhost:8080/device/ -->
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  <title>Title</title> 
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <!-- Latest compiled and minified CSS --> 
+  <link rel="stylesheet" href="../css/bootstrap-table.min.css" />
+  <script src="../js/jquery-3.2.0.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <!-- Latest compiled and minified JavaScript --> 
+  <script src="../js/bootstrap-table.min.js"></script>
+  <!-- Latest compiled and minified Locales --> 
+  <script src="../js/bootstrap-table-zh-CN.min.js"></script>
+ </head> 
+ <body> 
+  <div class="container"> 
+   <h1 class="text-center text-primary">Vanzo Data</h1> 
+   <div class="bootstrap-table">
+    <div class="fixed-table-toolbar">
+     <div class="columns columns-right btn-group pull-right">
+      <button class="btn btn-default" type="button" name="refresh" aria-label="refresh" title="刷新"><i class="glyphicon glyphicon-refresh icon-refresh"></i></button>
+      <div class="keep-open btn-group" title="列">
+       <button type="button" aria-label="columns" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-th icon-th"></i> <span class="caret"></span></button>
+       <ul class="dropdown-menu" role="menu">
+        <li role="menuitem"><label><input type="checkbox" data-field="Id" value="0" checked="checked" /> id</label></li>
+        <li role="menuitem"><label><input type="checkbox" data-field="DeviceId" value="1" checked="checked" /> 设备编号</label></li>
+        <li role="menuitem"><label><input type="checkbox" data-field="StepCount" value="2" checked="checked" /> 步数统计</label></li>
+        <li role="menuitem"><label><input type="checkbox" data-field="SignalIntensity" value="3" checked="checked" /> 信号强度</label></li>
+        <li role="menuitem"><label><input type="checkbox" data-field="Longitude" value="4" checked="checked" /> 经度</label></li>
+        <li role="menuitem"><label><input type="checkbox" data-field="Latitude" value="5" checked="checked" /> 纬度</label></li>
+        <li role="menuitem"><label><input type="checkbox" data-field="UploadTime" value="6" checked="checked" /> 上传时间</label></li>
+        <li role="menuitem"><label><input type="checkbox" data-field="UpdateTime" value="7" checked="checked" /> 更新时间</label></li>
+       </ul>
+      </div>
+     </div>
+    </div>
+    <div class="fixed-table-container" style="padding-bottom: 0px;">
+     <div class="fixed-table-header" style="display: none;">
+      <table></table>
+     </div>
+     <div class="fixed-table-body">
+      <div class="fixed-table-loading" style="top: 41px; display: none;">
+       正在努力地加载数据中，请稍候……
+      </div>
+      <table id="VanzoData" class="table table-hover table-striped">
+       <thead>
+        <tr>
+         <th style="" data-field="Id">
+          <div class="th-inner ">
+           id
+          </div>
+          <div class="fht-cell"></div></th>
+         <th style="" data-field="DeviceId">
+          <div class="th-inner ">
+           设备编号
+          </div>
+          <div class="fht-cell"></div></th>
+         <th style="" data-field="StepCount">
+          <div class="th-inner ">
+           步数统计
+          </div>
+          <div class="fht-cell"></div></th>
+         <th style="" data-field="SignalIntensity">
+          <div class="th-inner ">
+           信号强度
+          </div>
+          <div class="fht-cell"></div></th>
+         <th style="" data-field="Longitude">
+          <div class="th-inner ">
+           经度
+          </div>
+          <div class="fht-cell"></div></th>
+         <th style="" data-field="Latitude">
+          <div class="th-inner ">
+           纬度
+          </div>
+          <div class="fht-cell"></div></th>
+         <th style="" data-field="UploadTime">
+          <div class="th-inner ">
+           上传时间
+          </div>
+          <div class="fht-cell"></div></th>
+         <th style="" data-field="UpdateTime">
+          <div class="th-inner ">
+           更新时间
+          </div>
+          <div class="fht-cell"></div></th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr data-index="0"> 
+         <td style="">1</td> 
+         <td style="">vanzo</td> 
+         <td style="">24</td> 
+         <td style="">10 20 33</td> 
+         <td style="">112.23</td> 
+         <td style="">34.211</td> 
+         <td style="">2018-11-07T16:47:56+08:00</td> 
+         <td style="">-</td> 
+        </tr>
+        <tr data-index="1"> 
+         <td style="">2</td> 
+         <td style="">vanzo11</td> 
+         <td style="">838</td> 
+         <td style="">22 1 666</td> 
+         <td style="">121.358</td> 
+         <td style="">31.126</td> 
+         <td style="">0001-01-01T00:00:00Z</td> 
+         <td style="">-</td> 
+        </tr>
+        <tr data-index="2"> 
+         <td style="">3</td> 
+         <td style="">vanzo11</td> 
+         <td style="">838</td> 
+         <td style="">22 1 666</td> 
+         <td style="">121.358</td> 
+         <td style="">31.126</td> 
+         <td style="">0001-01-01T00:00:00Z</td> 
+         <td style="">-</td> 
+        </tr>
+        <tr data-index="3"> 
+         <td style="">4</td> 
+         <td style="">vanzo11</td> 
+         <td style="">838</td> 
+         <td style="">22 1 666</td> 
+         <td style="">121.358</td> 
+         <td style="">31.126</td> 
+         <td style="">0001-01-01T00:00:00Z</td> 
+         <td style="">-</td> 
+        </tr>
+        <tr data-index="4"> 
+         <td style="">5</td> 
+         <td style="">vanzo11</td> 
+         <td style="">838</td> 
+         <td style="">22 1 666</td> 
+         <td style="">121.358</td> 
+         <td style="">31.126</td> 
+         <td style="">0001-01-01T00:00:00Z</td> 
+         <td style="">-</td> 
+        </tr>
+        <tr data-index="5"> 
+         <td style="">6</td> 
+         <td style="">vanzo11</td> 
+         <td style="">838</td> 
+         <td style="">22 1 666</td> 
+         <td style="">121.358</td> 
+         <td style="">31.126</td> 
+         <td style="">0001-01-01T00:00:00Z</td> 
+         <td style="">-</td> 
+        </tr>
+        <tr data-index="6"> 
+         <td style="">7</td> 
+         <td style="">vanzo11</td> 
+         <td style="">838</td> 
+         <td style="">22 1 666</td> 
+         <td style="">121.358</td> 
+         <td style="">31.126</td> 
+         <td style="">0001-01-01T00:00:00Z</td> 
+         <td style="">-</td> 
+        </tr>
+        <tr data-index="7"> 
+         <td style="">8</td> 
+         <td style="">vanzo11</td> 
+         <td style="">838</td> 
+         <td style="">22 1 666</td> 
+         <td style="">121.358</td> 
+         <td style="">31.126</td> 
+         <td style="">0001-01-01T00:00:00Z</td> 
+         <td style="">-</td> 
+        </tr>
+        <tr data-index="8"> 
+         <td style="">9</td> 
+         <td style="">vanzo11</td> 
+         <td style="">838</td> 
+         <td style="">22 1 666</td> 
+         <td style="">121.358</td> 
+         <td style="">31.126</td> 
+         <td style="">0001-01-01T00:00:00Z</td> 
+         <td style="">-</td> 
+        </tr>
+        <tr data-index="9"> 
+         <td style="">10</td> 
+         <td style="">vanzo11</td> 
+         <td style="">838</td> 
+         <td style="">22 1 666</td> 
+         <td style="">121.358</td> 
+         <td style="">31.126</td> 
+         <td style="">0001-01-01T00:00:00Z</td> 
+         <td style="">-</td> 
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <div class="fixed-table-footer" style="display: none;">
+      <table>
+       <tbody>
+        <tr></tr>
+       </tbody>
+      </table>
+     </div>
+    </div>
+<!--    <div class="fixed-table-pagination" style="">
+     <div class="pull-left pagination-detail">
+      <span class="pagination-info">显示第 1 到第 10 条记录，总共 716 条记录</span>
+      <span class="page-list">每页显示 <span class="btn-group dropup"><button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="page-size">10</span> <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+         <li role="menuitem" class=""><a href="http://localhost:8080/device/#">5</a></li>
+         <li role="menuitem" class="active"><a href="http://localhost:8080/device/#">10</a></li>
+         <li role="menuitem" class=""><a href="http://localhost:8080/device/#">15</a></li>
+         <li role="menuitem" class=""><a href="http://localhost:8080/device/#">20</a></li>
+         <li role="menuitem" class=""><a href="http://localhost:8080/device/#">25</a></li>
+        </ul></span> 条记录</span>
+     </div>
+     <div class="pull-right pagination">-->
+      <ul class="pagination">
+       <li class="page-item page-pre"><a class="page-link" href="http://localhost:8080/device/#">‹</a></li>
+       <li class="page-item active"><a class="page-link" href="http://localhost:8080/device/#">1</a></li>
+       <li class="page-item"><a class="page-link" href="http://localhost:8080/device/#">2</a></li>
+       <li class="page-item"><a class="page-link" href="http://localhost:8080/device/#">3</a></li>
+       <li class="page-item"><a class="page-link" href="http://localhost:8080/device/#">4</a></li>
+       <li class="page-item"><a class="page-link" href="http://localhost:8080/device/#">5</a></li>
+       <li class="page-item page-last-separator disabled"><a class="page-link" href="http://localhost:8080/device/#">...</a></li>
+       <li class="page-item page-last"><a class="page-link" href="http://localhost:8080/device/#">72</a></li>
+       <li class="page-item page-next"><a class="page-link" href="http://localhost:8080/device/#">›</a></li>
+      </ul>
+     </div>
+    </div>
+   </div>
+   <div class="clearfix"></div> 
+  </div> 
+  <script src="/js/main.js"></script>
+ </body>
+</html>

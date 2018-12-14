@@ -79,6 +79,7 @@
         <servlet-name>DeviceServlet</servlet-name>
         <url-pattern>/b06/device</url-pattern>
         <url-pattern>/b06/device/*</url-pattern>
+        <url-pattern>/b06/device/#</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>cookieServlet</servlet-name>
@@ -89,5 +90,15 @@
     <servlet-mapping>
         <servlet-name>cookieServlet</servlet-name>
         <url-pattern>/cookie</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>sessionServlet</servlet-name>
+        <servlet-class>com.sx.servlet.sessionServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>sessionServlet</servlet-name>
+        <url-pattern>/session</url-pattern>
     </servlet-mapping>
 </web-app>
