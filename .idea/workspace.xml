@@ -5,48 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a7f6b54-cd1a-42ae-8096-10ae4ee95190" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sx/bean/UserBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sx/dao/DeviceDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sx/dao/DeviceDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sx/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sx/dao/UserDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sx/service/DeviceService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sx/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sx/servlet/DownloadServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sx/servlet/UpLoadServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sx/utils/Constant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/404.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/download.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/el.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/jsp/upload.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/xiaohongshu.xml" afterPath="$PROJECT_DIR$/.idea/libraries/xiaohongshu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sx/login/deviceJDBC.java" afterPath="$PROJECT_DIR$/src/com/sx/login/deviceJDBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sx/servlet/DeviceServlet.java" afterPath="$PROJECT_DIR$/src/com/sx/servlet/DeviceServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sx/servlet/ServletDemo.java" afterPath="$PROJECT_DIR$/src/com/sx/servlet/ServletDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sx/servlet/ServletVerification.java" afterPath="$PROJECT_DIR$/src/com/sx/servlet/ServletVerification.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sx/servlet/cookieServlet.java" afterPath="$PROJECT_DIR$/src/com/sx/servlet/cookieServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sx/servlet/loginServlet.java" afterPath="$PROJECT_DIR$/src/com/sx/servlet/loginServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sx/servlet/requestServlet.java" afterPath="$PROJECT_DIR$/src/com/sx/servlet/requestServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sx/utils/MyJdbcUtils.java" afterPath="$PROJECT_DIR$/src/com/sx/utils/MyJdbcUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db.properties" afterPath="$PROJECT_DIR$/src/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/db.properties" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/html/vanzo.html" afterPath="$PROJECT_DIR$/web/html/vanzo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/main.js" afterPath="$PROJECT_DIR$/web/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xiaohongshu.iml" afterPath="$PROJECT_DIR$/xiaohongshu.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/artifacts/xiaohongshu_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/xhs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sx/bean/deviceBean.java" afterPath="$PROJECT_DIR$/src/com/sx/bean/DeviceBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sx/servlet/sessionServlet.java" afterPath="$PROJECT_DIR$/src/com/sx/servlet/SessionServlet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/1.jsp" afterPath="$PROJECT_DIR$/web/jsp/1.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/1.png" afterPath="$PROJECT_DIR$/web/team/1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/jdbc.jsp" afterPath="$PROJECT_DIR$/web/jsp/jdbc.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -868,12 +827,20 @@
       <workItem from="1545213016369" duration="3399000" />
       <workItem from="1545270983991" duration="4849000" />
       <workItem from="1545288198381" duration="10401000" />
-      <workItem from="1545308277937" duration="15333000" />
+      <workItem from="1545308277937" duration="15449000" />
     </task>
+    <task id="LOCAL-00001" summary="add mvc and download">
+      <created>1545378308423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545378308423</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45922000" />
+    <option name="totallyTimeSpent" value="46038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -954,6 +921,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add mvc and download" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mvc and download" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="2" />
@@ -1003,6 +974,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,6 +982,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,6 +1032,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,6 +1040,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,6 +1074,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,6 +1082,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,6 +1117,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,6 +1149,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,6 +1157,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
