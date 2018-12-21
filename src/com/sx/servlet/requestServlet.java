@@ -14,16 +14,18 @@ import java.io.UnsupportedEncodingException;
  */
 @WebServlet(name = "requestServlet")
 public class  requestServlet extends HttpServlet {
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.log("luozicheng--doPost" );
         this.doGet(request,response);
     }
 
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.log("luozicheng -- doGet");
-        // 访问路径http://localhost:8080/day06/servlet/RequestDemo1?name=aaa
+        // 访问路径http://127.0.0.1:8080/day06/servlet/RequestDemo1?name=aaa
         System.out.println("11"+request.getRequestURI());  ///request
-        //http://localhost:8080/request
+        //http://127.0.0.1:8080/request
         // name=lzc
         System.out.println(request.getQueryString());
         // 获取客户端ip
@@ -39,6 +41,7 @@ public class  requestServlet extends HttpServlet {
         // 获取请求方式
         System.out.println(request.getMethod());
         execute(request,response);
+
 
     }
     private void execute(HttpServletRequest request , HttpServletResponse response){

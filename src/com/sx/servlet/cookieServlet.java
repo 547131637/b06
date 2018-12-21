@@ -23,6 +23,7 @@ public class cookieServlet extends HttpServlet {
      *  * 判断当前浏览的商品，在cookie里面是否存在相同的商品的id，如果存在，不进行追加的操作
      *  * 把值放到cookie里面，把cookie返回到浏览器
      */
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String id = request.getParameter("id");
         Cookie[] cookies = request.getCookies();
@@ -63,6 +64,7 @@ public class cookieServlet extends HttpServlet {
         return null;
     }
 
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doPost(request,response);
     }

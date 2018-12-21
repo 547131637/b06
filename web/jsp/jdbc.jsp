@@ -11,7 +11,7 @@
     <head>
     </head>
     <body>
-        <form action="http://192.168.8.102:8080/b06/device" method="post">
+        <form action="${pageContext.request.contextPath}/b06/device" method="post">
             用户名：<input type="text" name="DeviceID"  id="usernameid"/><br/>
             密码：<input type="text" name="StepCount"  id="passwordid" /><br/>
             密码：<input type="text" name="SignalIntensity"  id="signal" /><br/>

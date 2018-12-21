@@ -6,13 +6,15 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page errorPage="1.jsp"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
     <head>
 
     </head>
     <body>
-        <form action="http://192.168.8.102:8080/login" method="post">
+        <form action="${pageContext.request.contextPath}/login" method="post">
+            <h2>${msg}</h2>
             用户名：<input type="text" name="username"  id="usernameid"/><br/>
             密码：<input type="password" name="password"  id="passwordid" /><br/>
             验证码：<input type="text" name="checkcode"   id="verification" />

@@ -13,10 +13,12 @@ import java.net.URLEncoder;
  */
 @WebServlet(name = "ServletDemo")
 public class ServletDemo extends HttpServlet {
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.doGet(request,response);
     }
 
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //设置指定码表打开，不然汉字会乱码
         response.setContentType("text/html;charset=UTF-8");

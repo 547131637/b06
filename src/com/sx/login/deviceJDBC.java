@@ -1,6 +1,6 @@
 package com.sx.login;
 
-import com.sx.bean.deviceBean;
+import com.sx.bean.DeviceBean;
 import com.sx.utils.MyJdbcUtils;
 
 import java.sql.Connection;
@@ -41,11 +41,11 @@ public class deviceJDBC {
             MyJdbcUtils.clearConn(connection,preparedStatement,null);
         }
     }
-    public static ArrayList<deviceBean>  selectData(int id){
+    public static ArrayList<DeviceBean>  selectData(int id){
         Connection connection =null;
         PreparedStatement preparedStatement = null;
-        deviceBean deviceBean;
-        ArrayList<deviceBean> arrayList =new ArrayList<>();
+        DeviceBean deviceBean;
+        ArrayList<DeviceBean> arrayList =new ArrayList<>();
         try {
             connection = MyJdbcUtils.getConnection();
             String sql ="";
@@ -59,7 +59,7 @@ public class deviceJDBC {
             ResultSet resultSet = preparedStatement.executeQuery();
 
             while (resultSet.next()) {
-                deviceBean =new deviceBean();
+                deviceBean =new DeviceBean();
                 deviceBean.setId(resultSet.getString("Id"));
                 deviceBean.setDeviceID(resultSet.getString("DeviceID"));
                 deviceBean.setStepCount(resultSet.getString("StepCount"));

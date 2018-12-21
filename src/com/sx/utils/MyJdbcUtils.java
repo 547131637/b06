@@ -23,7 +23,7 @@ public class MyJdbcUtils {
 
 	public static Connection getConnection() throws Exception {
 		drivername="com.mysql.jdbc.Driver";
-		url="jdbc:mysql://localhost:3306/iot";
+		url="jdbc:mysql://127.0.0.1:3306/iot";
 		username="root";
 		password="luozicheng";
 		System.out.println("inti Driver");

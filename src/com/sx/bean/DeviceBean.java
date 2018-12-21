@@ -3,7 +3,7 @@ package com.sx.bean;
 /**
  * Created by Administrator on 2018/12/10.
  */
-public class deviceBean {
+public class DeviceBean {
     String id = "";
     String DeviceID = "";
     String StepCount = "";

@@ -21,7 +21,6 @@ public class loginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=UTF-8");
-        //super.doGet(req, resp);
         getContextDevices(resp);
         //getConfigDevices();
         getProperties();
@@ -79,6 +78,20 @@ public class loginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //super.doPost(req, resp);
         resp.setContentType("text/html;charset=UTF-8");
+
+        String verificationCode = req.getParameter("Verification");
+        String verification = (String) req.getSession().getAttribute("Verification");
+        if (verification !=null &&verificationCode !=null && verification.equals(verificationCode)){
+
+        }else{
+            getContextDevices(resp);
+            //getConfigDevices();
+            getProperties();
+            //转发
+            String address ="/1.jsp";
+            req.setAttribute("msg", "验证码错误");
+            setRetransminssion(req, resp, address);
+        }
         resp.setCharacterEncoding("UTF-8");
         System.out.println("http post ");
         String username = req.getParameter("username");

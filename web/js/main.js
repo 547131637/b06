@@ -2,7 +2,7 @@ $('#VanzoData').bootstrapTable({
     ajax : function (request) {
     $.ajax({
         type: "GET",
-        url: "http://localhost:8080/b06/device",
+        url: "http://127.0.0.1:8080/xhs/b06/device",
         contentType: "application/json;charset=utf-8",
         data: '',
 

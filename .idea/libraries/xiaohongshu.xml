@@ -1,8 +1,14 @@
 <component name="libraryTable">
   <library name="xiaohongshu">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../学习/web/mysql-connector-java-5.0.8-bin.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../web/fastjson-1.2.54.jar!/" />
+      <root url="jar://D:/apache-tomcat-7.0.53/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://D:/apache-tomcat-7.0.53/lib/mysql-connector-java-5.0.8-bin.jar!/" />
+      <root url="jar://D:/apache-tomcat-7.0.53/lib/fastjson-1.2.54.jar!/" />
+      <root url="jar://D:/apache-tomcat-7.0.53/lib/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar://D:/apache-tomcat-7.0.53/lib/commons-io-1.4.jar!/" />
+      <root url="jar://D:/apache-tomcat-7.0.53/lib/commons-fileupload-1.2.1.jar!/" />
+      <root url="jar://D:/apache-tomcat-7.0.53/lib/jstl.jar!/" />
+      <root url="jar://D:/apache-tomcat-7.0.53/lib/standard.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

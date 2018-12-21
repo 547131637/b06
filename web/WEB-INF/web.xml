@@ -92,13 +92,35 @@
         <url-pattern>/cookie</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>sessionServlet</servlet-name>
-        <servlet-class>com.sx.servlet.sessionServlet</servlet-class>
+        <servlet-name>SessionServlet</servlet-name>
+        <servlet-class>com.sx.servlet.SessionServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>sessionServlet</servlet-name>
+        <servlet-name>SessionServlet</servlet-name>
         <url-pattern>/session</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DownloadServlet</servlet-name>
+        <servlet-class>com.sx.servlet.DownloadServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DownloadServlet</servlet-name>
+        <url-pattern>/download</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpLoadServlet</servlet-name>
+        <servlet-class>com.sx.servlet.UpLoadServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpLoadServlet</servlet-name>
+        <url-pattern>/upload</url-pattern>
     </servlet-mapping>
 </web-app>
